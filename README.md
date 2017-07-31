@@ -2,11 +2,18 @@
 
 ###สร้าง Folder
 ```bash
->My Project 
->>public
->>>js
->>>picture
->>>css
+project{
+  public{
+    css
+    js
+    page
+    pic
+    index.html
+  }
+  server.js
+  package.json
+}
+
 ```
 ###จากนั้นใช้คำสั่งด้านล่างนี้ แล้วจะได้ไฟล์ package.json
 ```bash
