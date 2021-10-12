@@ -1,33 +1,22 @@
-# เริ่มต้นการใช้งาน Angularjs
+## เริ่มต้นการใช้งาน Angularjs
 
-###สร้าง Folder
+1. ติดตั้ง Angular CLI
 ```bash
-project{
-  public{
-    css
-    js
-    page
-    pic
-    index.html
-  }
-  server.js
-  package.json
-}
+$ npm install -g @angular/cli
+```
+> เป็นการติดตั้ง Angular CLI แบบ Grobal เพื่อให้สามารถเรียกใช้โดยไม่ต้องติดตั้งใหม่
 
-```
-###จากนั้นใช้คำสั่งด้านล่างนี้ แล้วจะได้ไฟล์ package.json
+2. สร้าง Project
 ```bash
-$ npm init
+$ ng new <ชื่อ Project>
 ```
-###จากนั้นใช้คำสั่งด้านล่างนี้ แล้วจะได้ Folder node_modules
+> จากนั้นรอจนเสร็จ
+
+## การ Run Aplication
+
+1. เข้าไปใน Folder ที่เก็บ Project ไว้
+2. ทำการ Run โดยใช้คำสั่ง
 ```bash
-$ npm install nodemon
+$ ng serve --open
 ```
-###ทำการติดตั้ง Espress
-```bash
-$ npm install express
-```
-###คำสั่งในการ Run
-```bash
-$ nodemon server
-```
+### เดี๋ยวมาเขียนต่อ
